@@ -26,27 +26,31 @@ From the root directory:
 
 ```bash
 docker-compose up -d
-Run Backend
-bash
-Copy code
+```
+
+### Run Backend
+
+```bash
 cd backend
 mvn spring-boot:run
+```
+
 Backend runs on:
 http://localhost:8080
 
-Run Frontend
-bash
-Copy code
+### Run Frontend
+
+```bash
 cd frontend
 npm install
 npm run dev
+```
+
 Frontend runs on:
 http://localhost:5173
 
-Notes
-AI functionality currently uses a placeholder service
+### Notes
 
-Designed to be easily extended with real LLM APIs
-
-Built mainly for learning full-stack and AI concepts
-```
+- AI functionality currently uses a placeholder service
+- Designed to be easily extended with real LLM APIs
+- Built mainly for learning full-stack and AI concepts
